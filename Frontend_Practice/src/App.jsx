@@ -1,10 +1,14 @@
-import React from 'react'
+import {Routes , Route} from "react-router-dom"
+import LandingPage from "./Pages/LandingPage"
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<LandingPage/>}/>
+      </Routes>
+    
+    </>
   )
 }
 
